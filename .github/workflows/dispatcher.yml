@@ -1,0 +1,25 @@
+name: Dispatcher
+
+on:
+    push:
+        paths-ignore:
+        - 'README.md'
+        - 'CHANGELOG.md'
+        - 'LICENSE'
+        - '.gitignore'
+        - '.mergify.yml'
+        - 'renovate.json'
+    pull_request:
+    workflow_dispatch:
+
+jobs:
+    dispatcher:
+        runs-on: ubuntu-latest
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository
+        steps:
+            - run: 'true'
+
+    ci-cd:
+        needs: dispatcher
+        uses: ./.github/workflows/ci.yml
+        secrets: inherit

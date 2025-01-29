@@ -1,0 +1,30 @@
+{
+  "name": "pp-helm-starter",
+  "version": "0.1.0",
+  "description": "Helm starter chart for the PositionPal Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/position-pal/pp-helm-starter.git"
+  },
+  "keywords": [
+    "helm",
+    "chart",
+    "starter"
+  ],
+  "author": "The PositionPal Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/position-pal/pp-helm-starter/issues"
+  },
+  "homepage": "https://github.com/position-pal/pp-helm-starter#readme",
+  "devDependencies": {
+    "semantic-release-preconfigured-conventional-commits": "1.1.116"
+  },
+  "engines": {
+    "node": "22.12"
+  }
+}
