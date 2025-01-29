@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.config.servicename }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    {{- include "chat-service.labels" . | nindent 4 }}
+spec:
+  selector:
+    app: {{ .Values.config.servicename }}
+  ports:
+    - protocol: TCP
+      port: {{ .Values.config.httpPort }}
+      targetPort: {{ .Values.config.httpPort }}
+      name: http
+    - protocol: TCP
+      port: {{ .Values.config.grpcPort }}
+      targetPort: {{ .Values.config.grpcPort }}
+      name: grpc
+  type: ClusterIP
