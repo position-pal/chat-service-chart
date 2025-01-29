@@ -1,5 +1,5 @@
 apiVersion: v2
-name: position-pal-location-service
+name: position-pal-chat-service
 description: Helm chart for the Position PAL Chat Service
 
 type: application
