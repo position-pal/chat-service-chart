@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/position-pal/chat-service-chart/compare/1.0.0...1.1.0) (2025-01-29)
+
+### Features
+
+* adding service template file ([b1b5edd](https://github.com/position-pal/chat-service-chart/commit/b1b5edd7a17c8108aa396c40dc62b15b51c6660e))
+
 ## 1.0.0 (2025-01-29)
 
 ### Features
