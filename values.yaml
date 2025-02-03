@@ -1,7 +1,7 @@
 # Base informations for the service image
 config:
   image:
-    repository: giovaz94/chat-test
+    repository: positionpal/chat-service
     tag: latest
     pullPolicy: IfNotPresent
 
