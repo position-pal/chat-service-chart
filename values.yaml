@@ -13,8 +13,7 @@ config:
   httpPort: 8080
   grpcPort: 5052
 
-  akka:
-    licenseKey: ""
+  akkaLicenseKey: ""
   
   resources:
     limits:
