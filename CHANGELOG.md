@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/position-pal/chat-service-chart/compare/1.0.1...1.0.2) (2025-02-03)
+
+### Bug Fixes
+
+* change tag of image ([7b4f627](https://github.com/position-pal/chat-service-chart/commit/7b4f6272a9eb150dc4571aa2e121cad40a88e586))
+
 ## [1.0.1](https://github.com/position-pal/chat-service-chart/compare/1.0.0...1.0.1) (2025-02-03)
 
 ### Bug Fixes
