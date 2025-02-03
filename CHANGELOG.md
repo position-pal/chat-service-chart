@@ -1,3 +1,17 @@
+## [1.1.0](https://github.com/position-pal/chat-service-chart/compare/1.0.0...1.1.0) (2025-02-03)
+
+### Features
+
+* adding service template file ([b1b5edd](https://github.com/position-pal/chat-service-chart/commit/b1b5edd7a17c8108aa396c40dc62b15b51c6660e))
+
+### General maintenance
+
+* **release:** 1.1.0 [skip ci] ([80f90ee](https://github.com/position-pal/chat-service-chart/commit/80f90eed1eac8312d46b8744b8b66df8327f424a))
+
+### Refactoring
+
+* change key name ([3ec72f2](https://github.com/position-pal/chat-service-chart/commit/3ec72f2e9e8737ce9e82eb6c0588f29c3aeaabfe))
+
 ## [1.1.0](https://github.com/position-pal/chat-service-chart/compare/1.0.0...1.1.0) (2025-01-29)
 
 ### Features
