@@ -2,7 +2,7 @@
 config:
   image:
     repository: positionpal/chat-service
-    tag: "1.0.0"
+    tag: "2.1.0"
     pullPolicy: IfNotPresent
 
   servicename: chatservice
