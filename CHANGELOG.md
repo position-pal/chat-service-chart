@@ -1,3 +1,17 @@
+## [1.0.1](https://github.com/position-pal/chat-service-chart/compare/1.0.0...1.0.1) (2025-02-03)
+
+### Bug Fixes
+
+* change repository image name ([146cfcb](https://github.com/position-pal/chat-service-chart/commit/146cfcb60ba31b0f6a2589253ebaa044a0342f3a))
+
+### Build and continuous integration
+
+* update release script ([07cbc13](https://github.com/position-pal/chat-service-chart/commit/07cbc13340b2e86c1b986d27516fa4b65b73d8a7))
+
+### General maintenance
+
+* change image tag ([40ca847](https://github.com/position-pal/chat-service-chart/commit/40ca847b34e515967c1bb5ce653fc9afc75feeb0))
+
 ## 1.0.0 (2025-02-03)
 
 ### Features
