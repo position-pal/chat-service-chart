@@ -1,3 +1,22 @@
+## [1.1.0](https://github.com/position-pal/chat-service-chart/compare/1.0.2...1.1.0) (2025-02-15)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/chat-service docker tag to v2.2.0 ([#5](https://github.com/position-pal/chat-service-chart/issues/5)) ([c4993c2](https://github.com/position-pal/chat-service-chart/commit/c4993c28e6a4cd08ab64d05082acbda9181ee702))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.123 ([#3](https://github.com/position-pal/chat-service-chart/issues/3)) ([b394493](https://github.com/position-pal/chat-service-chart/commit/b3944937b3afb762068f0a808b36af730547be98))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.124 ([#9](https://github.com/position-pal/chat-service-chart/issues/9)) ([625192f](https://github.com/position-pal/chat-service-chart/commit/625192f16c73bcec2a9dda9e15bf84140a02035f))
+* **deps:** update helm release cassandra to v12.1.3 ([#4](https://github.com/position-pal/chat-service-chart/issues/4)) ([744f33f](https://github.com/position-pal/chat-service-chart/commit/744f33f6ed5fa565c32df47f05945a50de4c8c1b))
+
+### Build and continuous integration
+
+* **deps:** add renovate.json file ([562b45c](https://github.com/position-pal/chat-service-chart/commit/562b45c97a7cc98283921f61ed0e319fe3e4cc92))
+* **deps:** pin dependencies ([#2](https://github.com/position-pal/chat-service-chart/issues/2)) ([5acea37](https://github.com/position-pal/chat-service-chart/commit/5acea376bc05a372e8a7c750e6efa3b9398a47ad))
+
+### Refactoring
+
+* edit service structure ([d6a8083](https://github.com/position-pal/chat-service-chart/commit/d6a80835d159da52af783596a085400cd66ea195))
+* update name for service ([f46b0ca](https://github.com/position-pal/chat-service-chart/commit/f46b0ca51ddd93b5d2995df98783855679471cb8))
+
 ## [1.0.2](https://github.com/position-pal/chat-service-chart/compare/1.0.1...1.0.2) (2025-02-03)
 
 ### Bug Fixes
