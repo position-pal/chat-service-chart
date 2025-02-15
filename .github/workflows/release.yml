@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
     
@@ -22,7 +22,7 @@ jobs:
         run: echo "version=$(jq -r .engines.node package.json)" >> $GITHUB_OUTPUT
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4.1.0
+        uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
         with:
           node-version: ${{ steps.node-version.outputs.version }}
 
@@ -45,7 +45,7 @@ jobs:
         run: helm dependency update
 
       - name: Push Helm chart to OCI compatible registry (Github)
-        uses: bsord/helm-push@v4.2.0
+        uses: bsord/helm-push@51f937208fed71540ab5ec5215cf9b3ecae9c7b7 # v4.2.0
         with:
           useOCIRegistry: true
           registry-url:  oci://ghcr.io/position-pal
