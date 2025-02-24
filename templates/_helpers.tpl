@@ -21,18 +21,18 @@ initContainers:
         - name: CASSANDRA_PASSWORD
           valueFrom:
             secretKeyRef:
-              name: {{ .Release.Name }}-location-service-secrets
+              name: {{ .Release.Name }}-chat-service-secrets
               key: cassandra-password
 
 {{- end -}}
 
 {{- define "chat-service.labels" -}}
-app: {{ .Values.config.servicename }}
+app: {{ .Values.serviceName }}
 {{- end -}}
 
 {{- define "chat-service.container" -}}
-- name: {{ .Values.config.servicename }}
-  image: "{{ .Values.config.image.repository }}:{{ .Values.config.image.tag }}"
+- name: {{ .Values.serviceName }}
+  image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
   readinessProbe:
     httpGet:
       path: /ready
@@ -43,13 +43,13 @@ app: {{ .Values.config.servicename }}
       port: management
   ports:
   - name: management
-    containerPort: {{ .Values.config.managementPort }}
+    containerPort: {{ .Values.managementPort }}
     protocol: TCP
   - name: http
-    containerPort: {{ .Values.config.httpPort }}
+    containerPort: {{ .Values.httpPort }}
     protocol: TCP
   - name: grpc
-    containerPort: {{ .Values.config.grpcPort }}
+    containerPort: {{ .Values.grpcPort }}
     protocol: TCP
   resources:
     limits:
@@ -61,7 +61,7 @@ app: {{ .Values.config.servicename }}
     - name: AKKA_LICENSE_KEY
       valueFrom:
         secretKeyRef:
-          name: {{ .Release.Name }}-location-service-secrets
+          name: {{ .Release.Name }}-chat-service-secrets
           key: akka-license-key
     - name: NAMESPACE
       valueFrom:
@@ -70,7 +70,7 @@ app: {{ .Values.config.servicename }}
     - name: RABBITMQ_PASSWORD
       valueFrom:
         secretKeyRef:
-          name: {{ .Release.Name }}-location-service-secrets
+          name: {{ .Release.Name }}-chat-service-secrets
           key: rabbitmq-password
     - name: CASSANDRA_CONTACT_POINT
       value: {{ .Release.Name }}-cassandra.{{ .Release.Namespace }}.svc.cluster.local:9042
@@ -79,7 +79,7 @@ app: {{ .Values.config.servicename }}
     - name: CASSANDRA_PASSWORD
       valueFrom:
         secretKeyRef:
-          name: {{ .Release.Name }}-location-service-secrets
+          name: {{ .Release.Name }}-chat-service-secrets
           key: cassandra-password
     - name: RABBITMQ_VIRTUAL_HOST
       value: {{ .Values.rabbitmq.virtualHost | quote }}
@@ -92,9 +92,11 @@ app: {{ .Values.config.servicename }}
     - name: USER_SERVICE_EVENT_QUEUE
       value: {{ .Values.rabbitmq.userServiceEventQueue | quote }}
     - name: GRPC_PORT
-      value: {{ .Values.config.grpcPort | quote }}
+      value: {{ .Values.grpcPort | quote }}
     - name: HTTP_PORT
-      value: {{ .Values.config.httpPort | quote }}
+      value: {{ .Values.httpPort | quote }}
     - name: REQUIRED_CONTACT_POINT_NR
-      value: {{ .Values.config.requiredContactPointNr | quote }}
+      value: {{ .Values.requiredContactPointNr | quote }}
+    - name: LOG_LEVEL
+      value: {{ .Values.logLevel }}
 {{- end -}}

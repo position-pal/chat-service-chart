@@ -8,12 +8,12 @@ metadata:
 spec:
   ports:
     - protocol: TCP
-      port: {{ .Values.config.httpPort }}
-      targetPort: {{ .Values.config.httpPort }}
+      port: {{ .Values.httpPort }}
+      targetPort: {{ .Values.httpPort }}
       name: http
     - protocol: TCP
-      port: {{ .Values.config.grpcPort }}
-      targetPort: {{ .Values.config.grpcPort }}
+      port: {{ .Values.grpcPort }}
+      targetPort: {{ .Values.grpcPort }}
       name: grpc
   type: ClusterIP
   selector:

@@ -1,32 +1,32 @@
 # Base informations for the service image
-config:
-  image:
-    repository: positionpal/chat-service
-    tag: "3.1.0@sha256:738f8eebba381d66ae22d534af1d14a077388c27867fa1b9e23b12e4edc0e3be"
-    pullPolicy: IfNotPresent
+image:
+  repository: positionpal/chat-service
+  tag: "3.1.0@sha256:738f8eebba381d66ae22d534af1d14a077388c27867fa1b9e23b12e4edc0e3be"
+  pullPolicy: IfNotPresent
 
-  servicename: chatservice
-  replicaNumber: 2
-  requiredContactPointNr: 2
+logLevel: INFO
+serviceName: chatservice
+replicaNumber: 2
+requiredContactPointNr: 2
 
-  managementPort: 8558
-  httpPort: 8080
-  grpcPort: 5052
+managementPort: 8558
+httpPort: 8080
+grpcPort: 5052
 
-  akkaLicenseKey: ""
-  
-  resources:
-    limits:
-      cpu: "1"
-      memory: "512Mi"
-    requests:
-      cpu: "0.5"
-      memory: "256Mi"
+akkaLicenseKey: ""
+
+resources:
+  limits:
+    cpu: "1"
+    memory: "512Mi"
+  requests:
+    cpu: "0.5"
+    memory: "256Mi"
 
 # Configure the connection information for the rabbtimq service
 rabbitmq:
   username: user
-  password: lCZtr7Eo6xXv4PWw
+  password: ""
   namespace: rabbitmq
   serviceName: rabbitmq
   virtualHost: /
