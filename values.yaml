@@ -1,7 +1,7 @@
 # Base informations for the service image
 image:
   repository: positionpal/chat-service
-  tag: "3.1.0@sha256:738f8eebba381d66ae22d534af1d14a077388c27867fa1b9e23b12e4edc0e3be"
+  tag: "3.1.1@sha256:04e2f2b81366844ec33c39890ff347b254e4030dc660b50f5ea210160eb165d4"
   pullPolicy: IfNotPresent
 
 logLevel: INFO
