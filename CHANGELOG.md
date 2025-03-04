@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/position-pal/chat-service-chart/compare/1.5.0...1.6.0) (2025-03-04)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/chat-service docker tag to v3.2.0 ([#18](https://github.com/position-pal/chat-service-chart/issues/18)) ([8b07784](https://github.com/position-pal/chat-service-chart/commit/8b07784cb23c0b81872e14777dd4c213f5681e15))
+
 ## [1.5.0](https://github.com/position-pal/chat-service-chart/compare/1.4.0...1.5.0) (2025-03-02)
 
 ### Dependency updates
