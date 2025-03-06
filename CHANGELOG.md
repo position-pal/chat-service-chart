@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/position-pal/chat-service-chart/compare/1.6.0...1.7.0) (2025-03-06)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/chat-service docker tag to v3.2.1 ([#20](https://github.com/position-pal/chat-service-chart/issues/20)) ([866e86e](https://github.com/position-pal/chat-service-chart/commit/866e86e993e4952dc2f2d2254635cc5e5f22b972))
+* **deps:** update helm release cassandra to v12.2.1 ([#19](https://github.com/position-pal/chat-service-chart/issues/19)) ([11549bf](https://github.com/position-pal/chat-service-chart/commit/11549bf3422fb4f6799543b7c5456422bb0443a3))
+
 ## [1.6.0](https://github.com/position-pal/chat-service-chart/compare/1.5.0...1.6.0) (2025-03-04)
 
 ### Dependency updates
