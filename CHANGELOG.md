@@ -1,3 +1,13 @@
+## [1.10.0](https://github.com/position-pal/chat-service-chart/compare/1.9.0...1.10.0) (2025-03-17)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/chat-service docker tag to v3.4.0 ([#24](https://github.com/position-pal/chat-service-chart/issues/24)) ([9c2ef7f](https://github.com/position-pal/chat-service-chart/commit/9c2ef7fb058ae96af04dfc289a18a4e763762470))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.3.0 ([#23](https://github.com/position-pal/chat-service-chart/issues/23)) ([51a3914](https://github.com/position-pal/chat-service-chart/commit/51a391443d415983b4d042fa5447de4a4b2ded51))
+
 ## [1.9.0](https://github.com/position-pal/chat-service-chart/compare/1.8.0...1.9.0) (2025-03-13)
 
 ### Dependency updates
