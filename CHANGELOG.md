@@ -1,3 +1,18 @@
+## [1.11.1](https://github.com/position-pal/chat-service-chart/compare/1.11.0...1.11.1) (2025-04-04)
+
+### Dependency updates
+
+* **deps:** update helm release cassandra to v12.2.2 ([#26](https://github.com/position-pal/chat-service-chart/issues/26)) ([f687908](https://github.com/position-pal/chat-service-chart/commit/f687908fb6af53f8f5419cfd14f9354a8e8e5450))
+* **deps:** update helm release cassandra to v12.2.3 ([#27](https://github.com/position-pal/chat-service-chart/issues/27)) ([92f7ea7](https://github.com/position-pal/chat-service-chart/commit/92f7ea71d243035fc7e23830b14463b78cefe611))
+
+### Documentation
+
+* edit README ([2e717dd](https://github.com/position-pal/chat-service-chart/commit/2e717ddec102b2949e66f6f66fadb2c535f8d381))
+
+### Build and continuous integration
+
+* adding if condition for release a new chart ([9462ea8](https://github.com/position-pal/chat-service-chart/commit/9462ea88f127514812212b04ae2b0df7efe3bb7b))
+
 ## [1.11.0](https://github.com/position-pal/chat-service-chart/compare/1.10.0...1.11.0) (2025-03-20)
 
 ### Dependency updates
