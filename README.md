@@ -1,32 +1,23 @@
-# Position Pal Helm Starter
+# Position Pal Chat Service Helm Chart
 
-This repository contains a Helm starter chart for the PositionPal Project. It provides a template for creating Helm charts to deploy applications on Kubernetes.
+This is a Helm chart for deploying the Position Pal Chat Service. The chart includes all necessary configurations and dependencies to run the service in a Kubernetes environment.
 
-## Features
+## Configure the Chart
 
-- Pre-configured templates for common Kubernetes resources such as Deployment, Service, Ingress, and more.
-- Configurable service account, image pull secrets, and resource limits.
-- Liveness and readiness probes.
-- Customizable Helm values.
+For a complete list of configuration options, please refer to the `values.yaml` file in the chart directory. Below are some common configurations you may want to customize:
 
-## Usage
+- `image.repository`: The Docker image repository for the chat service.
+- `image.tag`: The Docker image tag for the chat service.
+- `replicaNumber`: The number of replicas for the chat service deployment.
+- `requiredContactPointNr`: The port on which the service will be exposed.
+- `managementPort`: Akka management port
+- `httpPort`: The HTTP port for the chat service.
+- `grpcPort`: The gRPC port for the chat service.
+- `akkaLicenseKey`: The License key for Akka.
 
-### Prerequisites
+## Install the Chart
+To install the chart with the release name `my-release`:
 
-- Helm 3.x installed on your local machine. You can follow the [Helm installation guide](https://helm.sh/docs/intro/install/) if you don't have it installed.
-
-### Using the Starter
-
-Use the [Salesforce Helm Starter Plugin](https://github.com/salesforce/helm-starter) for creating a new Helm chart using this starter.
-
-1. Fetch this repository:
-
-    ```sh
-    helm starter fetch https://github.com/position-pal/pp-helm-starter.git
-    ```
-
-2. Create a new chart using this starter:
-
-    ```sh
-    helm create <CHART_NAME> --starter pp-helm-starter
-    ```
+```bash
+helm install my-release . --namespace position-pal --create-namespace
+```
