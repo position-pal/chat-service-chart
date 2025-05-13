@@ -1,3 +1,23 @@
+## [1.12.0](https://github.com/position-pal/chat-service-chart/compare/1.11.1...1.12.0) (2025-05-13)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/chat-service docker tag to v3.6.0 ([#39](https://github.com/position-pal/chat-service-chart/issues/39)) ([670c57f](https://github.com/position-pal/chat-service-chart/commit/670c57f303d4eaf870ca495fd83f00c60b6fc794))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.126 ([#36](https://github.com/position-pal/chat-service-chart/issues/36)) ([7c3c8f3](https://github.com/position-pal/chat-service-chart/commit/7c3c8f30cb238f04e9a440a7b5db4320af5646c5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.127 ([#37](https://github.com/position-pal/chat-service-chart/issues/37)) ([9fd1ace](https://github.com/position-pal/chat-service-chart/commit/9fd1ace44c710deda8db9e90b9895af8fab1cf90))
+* **deps:** update helm release cassandra to v12.3.0 ([#28](https://github.com/position-pal/chat-service-chart/issues/28)) ([2a7cbde](https://github.com/position-pal/chat-service-chart/commit/2a7cbdeb5d6b22a8d7a9fb36b31a3262e0ed5922))
+* **deps:** update helm release cassandra to v12.3.1 ([#29](https://github.com/position-pal/chat-service-chart/issues/29)) ([f1a5c5f](https://github.com/position-pal/chat-service-chart/commit/f1a5c5f1947f91d485b22903587f144a3f0febd8))
+* **deps:** update helm release cassandra to v12.3.2 ([#31](https://github.com/position-pal/chat-service-chart/issues/31)) ([6330501](https://github.com/position-pal/chat-service-chart/commit/63305016d73b84828ed0f53e9f1533d5420d4aec))
+* **deps:** update helm release cassandra to v12.3.3 ([#32](https://github.com/position-pal/chat-service-chart/issues/32)) ([6995ae6](https://github.com/position-pal/chat-service-chart/commit/6995ae681e89561c058c3714d7ccd06a1cd8daa8))
+* **deps:** update helm release cassandra to v12.3.4 ([#33](https://github.com/position-pal/chat-service-chart/issues/33)) ([21cf939](https://github.com/position-pal/chat-service-chart/commit/21cf9393f7950bf67ccd3552e65e6c7b184b04b8))
+* **deps:** update helm release cassandra to v12.3.5 ([#34](https://github.com/position-pal/chat-service-chart/issues/34)) ([35491b1](https://github.com/position-pal/chat-service-chart/commit/35491b1f119c27df29274c701344144dd56daf85))
+* **deps:** update helm release cassandra to v12.3.6 ([#38](https://github.com/position-pal/chat-service-chart/issues/38)) ([fbac796](https://github.com/position-pal/chat-service-chart/commit/fbac796e1f1a513946a66e305d5cf36f2f33ce0b))
+* **deps:** update node.js to 22.15 ([#35](https://github.com/position-pal/chat-service-chart/issues/35)) ([b2ed31f](https://github.com/position-pal/chat-service-chart/commit/b2ed31f3b51bc6c639f9533a8209eeafb95822b0))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.4.0 ([#30](https://github.com/position-pal/chat-service-chart/issues/30)) ([8034eb9](https://github.com/position-pal/chat-service-chart/commit/8034eb9acbb31e3b432582220c7b22e6b26b7788))
+
 ## [1.11.1](https://github.com/position-pal/chat-service-chart/compare/1.11.0...1.11.1) (2025-04-04)
 
 ### Dependency updates
