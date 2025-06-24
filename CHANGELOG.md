@@ -1,3 +1,18 @@
+## [1.13.0](https://github.com/position-pal/chat-service-chart/compare/1.12.0...1.13.0) (2025-06-24)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/chat-service docker tag to v3.7.0 ([#49](https://github.com/position-pal/chat-service-chart/issues/49)) ([0358a31](https://github.com/position-pal/chat-service-chart/commit/0358a310a4974968c9a1d13a505a4a2f6377b994))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.128 ([#40](https://github.com/position-pal/chat-service-chart/issues/40)) ([71093c7](https://github.com/position-pal/chat-service-chart/commit/71093c72abcba4e7c6418faef1eeae237e5938b8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.129 ([#42](https://github.com/position-pal/chat-service-chart/issues/42)) ([b28e143](https://github.com/position-pal/chat-service-chart/commit/b28e143b6cf971b9f6c5bc42eb79ecb3f363d662))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.130 ([#43](https://github.com/position-pal/chat-service-chart/issues/43)) ([0bd0258](https://github.com/position-pal/chat-service-chart/commit/0bd025807e84e6794c40717e7819491ab9b1d861))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.131 ([#45](https://github.com/position-pal/chat-service-chart/issues/45)) ([96e5664](https://github.com/position-pal/chat-service-chart/commit/96e56640cb0770e36a08961962ff5700686df7ed))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.132 ([#46](https://github.com/position-pal/chat-service-chart/issues/46)) ([f62f11a](https://github.com/position-pal/chat-service-chart/commit/f62f11a4883453a06dd82896653669b57033ad93))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.133 ([#47](https://github.com/position-pal/chat-service-chart/issues/47)) ([6d7cfb1](https://github.com/position-pal/chat-service-chart/commit/6d7cfb17dbbaf941486a16c98152f5f927ef9e8e))
+* **deps:** update helm release cassandra to v12.3.7 ([#41](https://github.com/position-pal/chat-service-chart/issues/41)) ([00e13b6](https://github.com/position-pal/chat-service-chart/commit/00e13b6a0fa21b0dbe63e1e3aaee46b673c513bf))
+* **deps:** update helm release cassandra to v12.3.8 ([#48](https://github.com/position-pal/chat-service-chart/issues/48)) ([23b458b](https://github.com/position-pal/chat-service-chart/commit/23b458bc7784289d227989786df730f229f60d13))
+* **deps:** update node.js to 22.16 ([#44](https://github.com/position-pal/chat-service-chart/issues/44)) ([9a1e062](https://github.com/position-pal/chat-service-chart/commit/9a1e0624325408d042040d3b1129afa2cf1cb645))
+
 ## [1.12.0](https://github.com/position-pal/chat-service-chart/compare/1.11.1...1.12.0) (2025-05-13)
 
 ### Dependency updates
