@@ -8,5 +8,5 @@ appVersion: "1.13.0"
 
 dependencies:
   - name: cassandra
-    version: "12.3.8"
+    version: "12.3.9"
     repository: "https://charts.bitnami.com/bitnami"
