@@ -1,3 +1,18 @@
+## [1.15.0](https://github.com/position-pal/chat-service-chart/compare/1.14.0...1.15.0) (2025-09-10)
+
+### Dependency updates
+
+* **api-deps:** update positionpal/chat-service docker tag to v3.9.0 ([#69](https://github.com/position-pal/chat-service-chart/issues/69)) ([a56048d](https://github.com/position-pal/chat-service-chart/commit/a56048d96722be20a351fe46599ec6bb7c726ff6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.140 ([#63](https://github.com/position-pal/chat-service-chart/issues/63)) ([b801bf9](https://github.com/position-pal/chat-service-chart/commit/b801bf9b68a9c21619a1323f84e39facd95b19d4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.141 ([#67](https://github.com/position-pal/chat-service-chart/issues/67)) ([9d9d5f3](https://github.com/position-pal/chat-service-chart/commit/9d9d5f3e80ba6f48bff91a9cb01364ab6852fc46))
+* **deps:** update helm release cassandra to v12.3.11 ([#65](https://github.com/position-pal/chat-service-chart/issues/65)) ([09398c1](https://github.com/position-pal/chat-service-chart/commit/09398c1752013f05565e366951c55b97bef2a4c0))
+* **deps:** update node.js to 22.19 ([#66](https://github.com/position-pal/chat-service-chart/issues/66)) ([9fb22bd](https://github.com/position-pal/chat-service-chart/commit/9fb22bdbb9c7b959ff93971946acb5a13cec250f))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v5 ([#68](https://github.com/position-pal/chat-service-chart/issues/68)) ([eba4ab8](https://github.com/position-pal/chat-service-chart/commit/eba4ab8211a34a1e0d676265c05fd4d6ffe42c75))
+* **deps:** update azure/setup-helm action to v4.3.1 ([#64](https://github.com/position-pal/chat-service-chart/issues/64)) ([e0734b8](https://github.com/position-pal/chat-service-chart/commit/e0734b8582393a5fc2b7a535b407a9d28b1686dd))
+
 ## [1.14.0](https://github.com/position-pal/chat-service-chart/compare/1.13.0...1.14.0) (2025-08-15)
 
 ### Dependency updates
