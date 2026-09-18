@@ -28,7 +28,7 @@ jobs:
         needs:
             - linting
         if: always() && (contains(join(needs.*.result, ','), 'failure') || ( !contains(join(needs.*.result, ','), 'cancelled') && !contains(join(needs.*.result, ','), 'skipped')))
-        runs-on: ubuntu-24.04
+        runs-on: ubuntu-26.04
         steps:
             - name: Verify no failures occurred in needed jobs
               run : ${{ !contains(join(needs.*.result, ','), 'failure') }}
